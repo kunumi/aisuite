@@ -83,7 +83,7 @@ export class GroqProvider extends BaseProvider {
       }
     } catch (error) {
       throw new AISuiteError(
-        `Mistral streaming error: ${
+        `Groq streaming error: ${
           error instanceof Error ? error.message : "Unknown error"
         }`,
         this.name,

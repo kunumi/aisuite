@@ -1,12 +1,12 @@
 {
   "name": "aisuite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unified TypeScript library for multiple LLM providers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest",
+    "test": "jest --config=jest.config.ts",
     "test:examples": "tsx examples/test-suite.ts",
     "example:basic": "tsx examples/basic-usage.ts",
     "example:tools": "tsx examples/tool-calling.ts",
@@ -47,9 +47,23 @@
     "ai",
     "typescript"
   ],
-  "author": "",
+  "author": "Andrew Ng and Rohit P",
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
-  }
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewyng/aisuite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewyng/aisuite/issues"
+  },
+  "homepage": "https://github.com/andrewyng/aisuite#readme",
+  "type": "module"
 }
