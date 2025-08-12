@@ -26,9 +26,7 @@ def provider_configs():
             "api_key": "mistral-api-key",
         },
         "google": {
-            "project_id": "test_google_project_id",
-            "region": "us-west4",
-            "application_credentials": "test_google_application_credentials",
+            "api_key": "gemini-api-key",
         },
         "fireworks": {
             "api_key": "fireworks-api-key",
