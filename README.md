@@ -12,7 +12,7 @@ Currently supported providers are:
 - AWS
 - Azure
 - Cerebras
-- Google
+- Google Vertex AI / Google Gemini Developer API
 - Groq
 - HuggingFace Ollama
 - Mistral
